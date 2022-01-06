@@ -33,6 +33,10 @@ nav {
   gap: 1rem;
 }
 
+section {
+  overflow: scroll;
+}
+
 /* -- Classes -- */
 
 .listItem {
@@ -95,3 +99,5 @@ h2 {
   font-size: 1rem;
   color: var(--transparent-white);
 }
+
+/* -- Media Queries -- */

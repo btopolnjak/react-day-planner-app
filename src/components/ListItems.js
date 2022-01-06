@@ -1,7 +1,7 @@
 import React from "react";
 import { BsSquare, BsCheckSquareFill, BsXSquare } from "react-icons/bs";
 
-export default function ListItems({ task, toggleTask, deleteTodo }) {
+export default function ListItems({ task, toggleTask, deleteTask }) {
    
     return (
         <section>
@@ -12,7 +12,7 @@ export default function ListItems({ task, toggleTask, deleteTodo }) {
                             {item.completed ? <BsCheckSquareFill /> : <BsSquare />}
                         </div>
                         <p>{item.name}</p>
-                        <div className="listIcons" onClick={() => deleteTodo(item.id)}><BsXSquare /></div>
+                        <div className="listIcons" onClick={() => deleteTask(item.id)}><BsXSquare /></div>
                     </div>
                 )
             })}
