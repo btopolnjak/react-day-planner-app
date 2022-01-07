@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { BsClipboardPlus, BsClipboardCheck } from "react-icons/bs";
+import { BsClipboardPlus, BsClipboardCheck, BsClipboard } from "react-icons/bs";
 
-export default function HeaderMenu({ headerMenuShow, addNewTask, clearCompleted }) {
+export default function HeaderMenu({ headerMenuShow, addNewTask, clearCompleted, setTask }) {
     
     const [inputTask, setInputTask] = useState("")
     function handleInput() {
@@ -26,6 +26,9 @@ export default function HeaderMenu({ headerMenuShow, addNewTask, clearCompleted 
             </div>
             <div className="menuIcons" onClick={() => clearCompleted()}>
                 <BsClipboardCheck />
+            </div>
+            <div className="menuIcons" onClick={() => setTask([])}>
+                <BsClipboard />
             </div>
         </nav>
     )

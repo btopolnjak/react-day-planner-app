@@ -50,7 +50,7 @@ function App() {
   }
 
   return (
-    <main>
+    <main className="main">
       <Header
         headerMenuShow={headerMenuShow}
         setHeaderMenuShow={setHeaderMenuShow}
@@ -59,9 +59,11 @@ function App() {
         headerMenuShow={headerMenuShow}
         addNewTask={addNewTask}
         clearCompleted={clearCompleted}
+        setTask={setTask}
       />
       <ListItems
         task={task}
+        headerMenuShow={headerMenuShow}
         toggleTask={toggleTask}
         deleteTask={deleteTask}
       />
