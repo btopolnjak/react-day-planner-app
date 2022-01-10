@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Day Planner App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check [Live Preview](https://btopolnjak.github.io/react-day-planner-app/)
 
 ## Available Scripts
 

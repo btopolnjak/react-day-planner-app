@@ -22,7 +22,7 @@ main {
 
 header {
   background: var(--primary-color) url(../public/shapelined-_JBKdviweXI-unsplash.jpg) no-repeat top/cover;
-  height: 17vh;
+  height: 20%;
   background-blend-mode: multiply;
   color: white;
   padding: 2.5rem 1.5rem 1.5rem 1.5rem;
@@ -37,10 +37,6 @@ nav {
   display: flex;
   align-items: center;
   gap: 1rem;
-}
-
-section {
-  overflow-y: auto;
 }
 
 /* -- Classes -- */
@@ -109,16 +105,16 @@ h2 {
   
   body {
     height: 100vh;
-    width: 100vw;
     display: grid;
-    place-content: center;
+    justify-content: center;
+    padding: 5% 0;
     background-color: darkgray;
   }
 
   main {
     width: 30rem;
-    height: 80vh;
-    overflow-y: scroll;
+    height: 100%;
+    overflow-y: auto;
     border-radius: 0.25rem;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
   }
