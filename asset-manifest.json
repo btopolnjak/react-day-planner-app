@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-day-planner-app/static/css/main.0a10cb2b.css",
-    "main.js": "/react-day-planner-app/static/js/main.964324b9.js",
+    "main.css": "/react-day-planner-app/static/css/main.76340156.css",
+    "main.js": "/react-day-planner-app/static/js/main.6ddd1331.js",
     "static/media/shapelined-_JBKdviweXI-unsplash.jpg": "/react-day-planner-app/static/media/shapelined-_JBKdviweXI-unsplash.1bc23936741f93c6ba3a.jpg",
     "index.html": "/react-day-planner-app/index.html",
-    "main.0a10cb2b.css.map": "/react-day-planner-app/static/css/main.0a10cb2b.css.map",
-    "main.964324b9.js.map": "/react-day-planner-app/static/js/main.964324b9.js.map"
+    "main.76340156.css.map": "/react-day-planner-app/static/css/main.76340156.css.map",
+    "main.6ddd1331.js.map": "/react-day-planner-app/static/js/main.6ddd1331.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a10cb2b.css",
-    "static/js/main.964324b9.js"
+    "static/css/main.76340156.css",
+    "static/js/main.6ddd1331.js"
   ]
 }
