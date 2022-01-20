@@ -56,7 +56,6 @@ function App() {
         setHeaderMenuShow={setHeaderMenuShow}
       />
       {headerMenuShow && <HeaderMenu
-        headerMenuShow={headerMenuShow}
         addNewTask={addNewTask}
         clearCompleted={clearCompleted}
         setTask={setTask}
