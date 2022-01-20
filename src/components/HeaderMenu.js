@@ -9,9 +9,7 @@ export default function HeaderMenu({ headerMenuShow, addNewTask, clearCompleted,
         addNewTask(inputTask);
         setInputTask("");
     }
-    
-    if (!headerMenuShow) { return null } else
-    
+      
     return (
         <nav>
             <input

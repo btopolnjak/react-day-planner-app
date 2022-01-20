@@ -55,12 +55,12 @@ function App() {
         headerMenuShow={headerMenuShow}
         setHeaderMenuShow={setHeaderMenuShow}
       />
-      <HeaderMenu
+      {headerMenuShow && <HeaderMenu
         headerMenuShow={headerMenuShow}
         addNewTask={addNewTask}
         clearCompleted={clearCompleted}
         setTask={setTask}
-      />
+      />}
       <ListItems
         task={task}
         headerMenuShow={headerMenuShow}
