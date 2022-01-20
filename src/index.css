@@ -21,8 +21,11 @@ main {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 7.5rem;
   background: var(--primary-color) url(../public/shapelined-_JBKdviweXI-unsplash.jpg) no-repeat top/cover;
-  height: 20%;
   background-blend-mode: multiply;
   color: white;
   padding: 2.5rem 1.5rem 1.5rem 1.5rem;
@@ -32,12 +35,23 @@ header {
 }
 
 nav {
+  position: fixed;
+  top: 7.5rem;
+  width: 100%;
+  height: 4.250rem;
   background-color: var(--primary-light-color);
+  background-blend-mode: multiply;
   padding: 1rem;
   display: flex;
   align-items: center;
   gap: 1rem;
 }
+
+section {
+  margin-top: 7.5rem;
+  background-color: white;
+}
+
 
 /* -- Classes -- */
 
@@ -101,22 +115,21 @@ h2 {
 
 /* -- Media Queries -- */
 
-@media (min-width: 30rem) {
+/* @media (min-width: 30rem) {
   
   body {
-    height: 100vh;
-    display: grid;
-    justify-content: center;
-    padding: 5% 0;
     background-color: darkgray;
   }
 
-  main {
-    width: 30rem;
-    height: 100%;
-    overflow-y: auto;
-    border-radius: 0.25rem;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  header, nav {
+    max-width: 30rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
-}
+  main {
+    background-color: white;
+    margin: 0 auto;
+  }
+
+} */

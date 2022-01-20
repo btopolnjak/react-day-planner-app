@@ -4,7 +4,7 @@ import { BsSquare, BsCheckSquareFill, BsXSquare } from "react-icons/bs";
 export default function ListItems({ task, toggleTask, deleteTask, headerMenuShow }) {
     
     return (
-        <section>
+        <section style={{ marginTop: headerMenuShow ? "11.75rem" : "7.5rem" }}>
             {task.map(item => {
                 return (
                     <div className="listItem" key={item.id}>
